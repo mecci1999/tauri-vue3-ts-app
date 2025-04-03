@@ -1,5 +1,5 @@
 [package]
-name = "darwin-app"
+name = "tauri-app"
 version = "0.1.0"
 description = "app"
 authors = ["chandler_chen"]
@@ -27,7 +27,7 @@ crate-type = ["staticlib", "cdylib", "rlib"]
 tauri-build = { version = "2.1.0", features = [] }
 
 [dependencies]
-tauri = { version = "2.4.0", features = [
+tauri = { version = "2.4.0", features = [ "macos-private-api",
     "tray-icon",
     "image-png",
 ] }

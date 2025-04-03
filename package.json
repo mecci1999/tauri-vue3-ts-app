@@ -8,6 +8,7 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
+    "tauri:dev": "tauri dev",
     "lint:staged": "lint-staged && vue-tsc --noEmit"
   },
   "dependencies": {

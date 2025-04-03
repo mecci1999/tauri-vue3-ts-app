@@ -1007,36 +1007,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "darwin-app"
-version = "0.1.0"
-dependencies = [
- "base64 0.22.1",
- "lazy_static",
- "reqwest 0.11.27",
- "rodio",
- "screenshots",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-autostart",
- "tauri-plugin-clipboard-manager",
- "tauri-plugin-dialog",
- "tauri-plugin-fs",
- "tauri-plugin-global-shortcut",
- "tauri-plugin-http",
- "tauri-plugin-notification",
- "tauri-plugin-opener",
- "tauri-plugin-os",
- "tauri-plugin-process",
- "tauri-plugin-shell",
- "tauri-plugin-single-instance",
- "tauri-plugin-sql",
- "tauri-plugin-updater",
- "tauri-plugin-upload",
-]
-
-[[package]]
 name = "dasp_sample"
 version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5646,6 +5616,36 @@ dependencies = [
  "webview2-com",
  "window-vibrancy",
  "windows 0.60.0",
+]
+
+[[package]]
+name = "tauri-app"
+version = "0.1.0"
+dependencies = [
+ "base64 0.22.1",
+ "lazy_static",
+ "reqwest 0.11.27",
+ "rodio",
+ "screenshots",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-autostart",
+ "tauri-plugin-clipboard-manager",
+ "tauri-plugin-dialog",
+ "tauri-plugin-fs",
+ "tauri-plugin-global-shortcut",
+ "tauri-plugin-http",
+ "tauri-plugin-notification",
+ "tauri-plugin-opener",
+ "tauri-plugin-os",
+ "tauri-plugin-process",
+ "tauri-plugin-shell",
+ "tauri-plugin-single-instance",
+ "tauri-plugin-sql",
+ "tauri-plugin-updater",
+ "tauri-plugin-upload",
 ]
 
 [[package]]
